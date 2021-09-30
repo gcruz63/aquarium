@@ -1,0 +1,16 @@
+.loc{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.loc__img{
+    width: 479px;
+    aspect-ratio: auto 479 / 315;
+    height: 315px;  
+}
+.loc__details{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
